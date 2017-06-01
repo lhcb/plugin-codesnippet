@@ -53,7 +53,7 @@ module.exports = {
 
                         return d.promise;
                     } else {
-                        return that.book.readFile(filename);
+                        return that.book.readFileAsString(filename);
                     }
                 })
 
